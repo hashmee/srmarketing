@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+ruby "2.2.1"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 # Use postgresql as the database for Active Record
@@ -37,4 +37,10 @@ group :development, :test do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 end
+gem 'rails_12factor', group: :production
+gem 'twitter_cldr', '~> 3.1.2'
+gem 'spree', github: 'spree/spree', branch: '3-0-stable'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise',branch: '3-0-stable'
+gem 'spree_blogging_spree', :git => 'git://github.com/divineforest/spree-blogging-spree.git'
+gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: '3-0-stable'
 
