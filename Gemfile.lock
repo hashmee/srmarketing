@@ -1,6 +1,7 @@
 GIT
   remote: git://github.com/divineforest/spree-blogging-spree.git
   revision: 6c3de36386ad4ae1ce41adf4ae4445ff5413887a
+  branch: master
   specs:
     spree_blogging_spree (0.2.1)
       is_taggable
