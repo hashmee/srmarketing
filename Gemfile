@@ -41,6 +41,5 @@ gem 'rails_12factor', group: :production
 gem 'twitter_cldr', '~> 3.1.2'
 gem 'spree', github: 'spree/spree', branch: '3-0-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise',branch: '3-0-stable'
-gem 'spree_blogging_spree', :git => 'git://github.com/divineforest/spree-blogging-spree.git',branch: 'master'
 gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: '3-0-stable'
 
